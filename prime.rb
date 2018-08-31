@@ -3,7 +3,7 @@ def prime?(number)
 
 if number == 2 ||number == 11 || number == 105557
   return true
-elsif number>0
+elsif number<0
   return false
 else
   (2..Math.sqrt(number)).each { |i|
